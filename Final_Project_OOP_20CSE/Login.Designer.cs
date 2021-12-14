@@ -111,13 +111,16 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Gainsboro;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Brown;
             this.button1.Location = new System.Drawing.Point(848, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(48, 39);
             this.button1.TabIndex = 6;
             this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
