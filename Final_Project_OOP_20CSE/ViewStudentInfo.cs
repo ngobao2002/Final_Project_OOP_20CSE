@@ -21,5 +21,25 @@ namespace Final_Project_OOP_20CSE
         {
 
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ViewStudentInfo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
