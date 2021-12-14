@@ -135,6 +135,7 @@
             this.issueBooksToolStripMenuItem.Name = "issueBooksToolStripMenuItem";
             this.issueBooksToolStripMenuItem.Size = new System.Drawing.Size(149, 54);
             this.issueBooksToolStripMenuItem.Text = "Issue Books";
+            this.issueBooksToolStripMenuItem.Click += new System.EventHandler(this.issueBooksToolStripMenuItem_Click);
             // 
             // returnBooksToolStripMenuItem
             // 

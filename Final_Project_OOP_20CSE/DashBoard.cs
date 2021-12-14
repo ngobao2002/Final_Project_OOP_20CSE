@@ -63,5 +63,11 @@ namespace Final_Project_OOP_20CSE
             ViewStudentInfo vsi = new ViewStudentInfo();
             vsi.Show();
         }
+
+        private void issueBooksToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IssueBook ib = new IssueBook();
+            ib.Show();
+        }
     }
 }
