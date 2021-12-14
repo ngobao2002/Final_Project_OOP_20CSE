@@ -69,5 +69,11 @@ namespace Final_Project_OOP_20CSE
             IssueBook ib = new IssueBook();
             ib.Show();
         }
+
+        private void returnBooksToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReturnBook rb = new ReturnBook();
+            rb.Show();
+        }
     }
 }

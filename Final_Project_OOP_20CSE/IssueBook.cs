@@ -41,5 +41,10 @@ namespace Final_Project_OOP_20CSE
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
