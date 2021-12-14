@@ -57,5 +57,11 @@ namespace Final_Project_OOP_20CSE
             AddStudent ast = new AddStudent();
             ast.Show();
         }
+
+        private void viewStudentInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ViewStudentInfo vsi = new ViewStudentInfo();
+            vsi.Show();
+        }
     }
 }

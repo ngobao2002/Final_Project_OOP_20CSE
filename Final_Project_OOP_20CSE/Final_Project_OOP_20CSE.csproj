@@ -78,6 +78,12 @@
     <Compile Include="ViewBook.Designer.cs">
       <DependentUpon>ViewBook.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewStudentInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewStudentInfo.Designer.cs">
+      <DependentUpon>ViewStudentInfo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddBook.resx">
       <DependentUpon>AddBook.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +107,9 @@
     </Compile>
     <EmbeddedResource Include="ViewBook.resx">
       <DependentUpon>ViewBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewStudentInfo.resx">
+      <DependentUpon>ViewStudentInfo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
