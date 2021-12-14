@@ -44,22 +44,22 @@ namespace Final_Project_OOP_20CSE
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-
+            System.Diagnostics.Process.Start("https://vnuk.udn.vn/en/");
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-
+            System.Diagnostics.Process.Start("https://www.facebook.com/vnuk.edu.vn");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            this.Dispose();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-
+            System.Diagnostics.Process.Start("https://www.instagram.com/vnuk.edu.vn/");
         }
 
         private void label2_Click(object sender, EventArgs e)
