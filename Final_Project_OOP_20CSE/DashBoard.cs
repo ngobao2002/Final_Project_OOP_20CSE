@@ -51,5 +51,11 @@ namespace Final_Project_OOP_20CSE
             ViewBook vbk = new ViewBook();
             vbk.Show();
         }
+
+        private void addStudentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddStudent ast = new AddStudent();
+            ast.Show();
+        }
     }
 }
