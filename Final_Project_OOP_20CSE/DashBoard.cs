@@ -45,5 +45,11 @@ namespace Final_Project_OOP_20CSE
             AddBook abs = new AddBook();
             abs.Show();
         }
+
+        private void viewBookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ViewBook vbk = new ViewBook();
+            vbk.Show();
+        }
     }
 }
