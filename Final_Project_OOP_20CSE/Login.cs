@@ -39,7 +39,8 @@ namespace Final_Project_OOP_20CSE
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            DashBoard db = new DashBoard();
+            db.Show();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
