@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -39,8 +40,33 @@ namespace Final_Project_OOP_20CSE
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DashBoard db = new DashBoard();
-            db.Show();
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = "Data Source=MSI\\SQLEXPRESS;Initial Catalog=library;Integrated Security=True";
+            SqlCommand cmd = new SqlCommand
+            {
+                Connection = con,
+
+                CommandText = "select * from loginTable where username='" + txtUserName.Text + "' and pass='" + txtPassword.Text + "' "
+            };
+       
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            
+            if (ds.Tables[0].Rows.Count != 0)
+            {
+                this.Hide();
+                DashBoard das = new DashBoard();
+                das.Show();
+            }   
+            else
+            {
+                MessageBox.Show("Wrong Username OR Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }    
+                
+            //DashBoard db = new DashBoard();
+            //db.Show();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
