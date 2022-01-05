@@ -159,6 +159,7 @@
             this.txtBookName.Name = "txtBookName";
             this.txtBookName.Size = new System.Drawing.Size(347, 30);
             this.txtBookName.TabIndex = 6;
+            this.txtBookName.TextChanged += new System.EventHandler(this.txtBookName_TextChanged);
             // 
             // label6
             // 
@@ -272,6 +273,7 @@
             this.Name = "AddBook";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddBook";
+            this.Load += new System.EventHandler(this.AddBook_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

@@ -75,5 +75,10 @@ namespace Final_Project_OOP_20CSE
             ReturnBook rb = new ReturnBook();
             rb.Show();
         }
+
+        private void bookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -59,5 +59,15 @@ namespace Final_Project_OOP_20CSE
                 this.Close();
             }
         }
+
+        private void txtBookName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddBook_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
