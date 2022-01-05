@@ -153,5 +153,10 @@ namespace Final_Project_OOP_20CSE
                 this.Close();
             }
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
