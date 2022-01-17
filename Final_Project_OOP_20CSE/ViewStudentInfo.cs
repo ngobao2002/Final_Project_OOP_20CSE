@@ -20,7 +20,7 @@ namespace Final_Project_OOP_20CSE
 
         private void ViewStudentInfo_Load(object sender, EventArgs e)
         {
-            panel2.Visible = true;
+            panel2.Visible = false;
             SqlConnection con = new SqlConnection();
             con.ConnectionString = "Data Source=MSI\\SQLEXPRESS;Initial Catalog=library;Integrated Security=True";
             SqlCommand cmd = new SqlCommand();
