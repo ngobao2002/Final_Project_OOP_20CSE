@@ -80,5 +80,11 @@ namespace Final_Project_OOP_20CSE
         {
 
         }
+
+        private void completeBookDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CompleteBook cb = new CompleteBook();
+            cb.Show();
+        }
     }
 }
