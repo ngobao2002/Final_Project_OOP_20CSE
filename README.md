@@ -24,5 +24,57 @@
     <img width="19%" src="https://img.shields.io/github/commit-activity/w/ngobao2002/Final_Project_OOP_20CSE?logo=GitHub">
 </p>
 
+
+#### Table of contents:
+1. [ About the project. ](#pro)
+2. [ Built with. ](#tech)
+3. [ Getting started. ](#get)
+
+    i.[ Installation. ](#desc) 
+   
+    ii.[ Data. ](#da)
+   
+4. [ Usage. ](#us) 
+5. [ Instructors. ](#in)
+6. [ Contact. ](#con)
+
+<a name="pro"></a>
+# About the project:
+Nowadays, the library has become an indispensable place for students to serve learning purposes. But with the storage of too large a volume of books as well as student information, students' borrowing and returning of books has become a big problem for schools. The application of science and technology is extremely important for the management to become faster and more accurate.
+
+<a name="tech"></a>
+## Built with: 
+
+
+-  C#
+-  Visual studio 2022
+-  SQL
+-  Github
+
+
+<a name="get"></a>
+# Getting started:
+
+## Contact:
+1/ Nguyen Phan:
+```
+Email: nguyen.phan200217@vnuk.edu.vn
+Github: https://github.com/ppn243
+```
+
+2/ Bao Ngo:
+```
+Email: bao.ngo200202@vnuk.edu.vn
+Github: https://github.com/ngobao2002
+```
+
+3/ Tri Phan:
+```
+Email: tri.phan200209@vnuk.edu.vn
+Github: https://github.com/phanTri02
+```
+
+
+
     
   
