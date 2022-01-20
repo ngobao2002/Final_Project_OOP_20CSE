@@ -55,6 +55,22 @@ Nowadays, the library has become an indispensable place for students to serve le
 <a name="get"></a>
 # Getting started:
 
+## Installation:
+- You have to install SQL sever from <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" target="_blank">Microsoft</a> .
+- You have to dowload Final_Project_OOP_20CSE/library.sql to get the data.
+- You need to use libray System.Data.SqlClient to connect the data with your program:
+
+      + Example: 
+      
+            SqlConnection con = new SqlConnection();
+            
+            con.ConnectionString = "Data Source=MSI\\SQLEXPRESS;Initial Catalog=library;Integrated Security=True";
+            
+            SqlCommand cmd = new SqlCommand();
+            
+            cmd.Connection = con;
+  
+  
 ## Contact:
 1/ Nguyen Phan:
 ```
