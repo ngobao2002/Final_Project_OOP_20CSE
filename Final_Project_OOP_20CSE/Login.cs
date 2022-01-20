@@ -18,21 +18,6 @@ namespace Final_Project_OOP_20CSE
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -79,11 +64,6 @@ namespace Final_Project_OOP_20CSE
             System.Diagnostics.Process.Start("https://www.facebook.com/vnuk.edu.vn");
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-        }
-
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://www.instagram.com/vnuk.edu.vn/");
@@ -103,5 +83,32 @@ namespace Final_Project_OOP_20CSE
         {
 
         }
-    }
+
+        private void btnSignUp_Click(object sender, EventArgs e)
+        {
+            if(txtUserName.Text !="" && txtPassword.Text != "")
+            {
+                String username = txtUserName.Text;
+                String password = txtPassword.Text;
+
+                SqlConnection con = new SqlConnection();
+                con.ConnectionString = "Data Source=MSI\\SQLEXPRESS;Initial Catalog=library;Integrated Security=True";
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = con;
+
+                con.Open();
+                cmd.CommandText = "insert into loginTable (username, pass) values ('" + username + "','" + password + "')";
+                cmd.ExecuteNonQuery();
+                con.Close();
+
+                MessageBox.Show("Sign Up Success.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtUserName.Clear();
+                txtPassword.Clear();
+            }
+            else
+            {
+                MessageBox.Show("Empty Field NOT Allowed", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+        }
 }
