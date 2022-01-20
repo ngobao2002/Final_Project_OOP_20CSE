@@ -34,9 +34,7 @@
    
     ii.[ Data. ](#da)
    
-4. [ Usage. ](#us) 
-5. [ Instructors. ](#in)
-6. [ Contact. ](#con)
+4. [ Contact. ](#con)
 
 <a name="pro"></a>
 # About the project:
@@ -70,7 +68,7 @@ Nowadays, the library has become an indispensable place for students to serve le
             
             cmd.Connection = con;
   
-  
+<a name="con"></a>  
 ## Contact:
 1/ Nguyen Phan:
 ```
