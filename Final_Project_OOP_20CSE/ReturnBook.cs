@@ -104,5 +104,10 @@ namespace Final_Project_OOP_20CSE
                 this.Close();
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
