@@ -58,7 +58,7 @@ namespace Final_Project_OOP_20CSE
 
 
                 //---------------------------------------------------------------
-                //Code to Count how many has been issued on this ID number
+                //Code to Count how many have been issued on this ID number
                 cmd.CommandText = "select count(std_id) from IRBook where std_id = '" + eid + "' and book_return_date is null";
                 SqlDataAdapter DA1 = new SqlDataAdapter(cmd);
                 DataSet DS1 = new DataSet();
@@ -94,8 +94,8 @@ namespace Final_Project_OOP_20CSE
         {
             if(txtName.Text != "")
             {
-                if(comboBoxBooks.SelectedIndex != -1 && count>=2)
-                {
+                //if(comboBoxBooks.SelectedIndex != -1 && count>=2)
+                //{
                     String id = txtId.Text;
                     String sname = txtName.Text;
                     String smajor = txtMajor.Text;
@@ -111,16 +111,16 @@ namespace Final_Project_OOP_20CSE
                     SqlCommand cmd = new SqlCommand();
                     cmd.Connection = con;
                     con.Open();
-                    cmd.CommandText = "insert into IRBook (std_id,std_major,std_sem,std_contact,std_email,book_name,book_issue_date) value ('"+id+"', '"+smajor+"', '"+sem+"', '"+ contact+"', '" +email+"', '"+ bookname+"', '" + bookIssueDate + "')";
+                    cmd.CommandText = cmd.CommandText = "insert into IRBook (std_id,std_major,std_sem,std_contact,std_email,book_name,book_issue_date) values ('"+id+"', '"+smajor+"', '"+sem+"', '"+ contact+"', '" +email+"', '"+ bookname+"', '" + bookIssueDate + "')";
                     cmd.ExecuteNonQuery();
                     con.Close();
 
                     MessageBox.Show("Book Issued.", "Success",MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("Select Book. OR Maximum number of Book Has been ISSUED","Success",MessageBoxButtons.OK,MessageBoxIcon.Error);
-                }
+                //}
+                //else
+                //{
+                   // MessageBox.Show("Select Book. OR Maximum number of Book Has been ISSUED","No book Selected",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                //}
             }   
             else
             {
@@ -152,11 +152,6 @@ namespace Final_Project_OOP_20CSE
             {
                 this.Close();
             }
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
