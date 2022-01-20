@@ -68,6 +68,9 @@ Nowadays, the library has become an indispensable place for students to serve le
             cmd.Connection = con;
   
 <a name="con"></a>  
+
+## Reference:
+- This project is referenced by: <a href="https://www.youtube.com/watch?v=YhAwNITpnno" target="_blank">BTech Days</a> <a href="https://www.youtube.com/watch?v=97ta0YYT6Zs&t=17324s" target="_blank">MyCodeSpace</a>
 ## Contact:
 1/ <a href="https://github.com/ppn243" target="_blank">Nguyen Phan</a>:
 ```
