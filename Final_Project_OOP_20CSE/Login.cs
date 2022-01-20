@@ -110,5 +110,10 @@ namespace Final_Project_OOP_20CSE
                 MessageBox.Show("Empty Field NOT Allowed", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
+    }
 }
