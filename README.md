@@ -32,8 +32,6 @@
 
     i.[ Installation. ](#desc) 
    
-    ii.[ Data. ](#da)
-   
 4. [ Contact. ](#con)
 
 <a name="pro"></a>
@@ -53,6 +51,7 @@ Nowadays, the library has become an indispensable place for students to serve le
 <a name="get"></a>
 # Getting started:
 
+<a name="desc"></a>
 ## Installation:
 - You have to install SQL sever from <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" target="_blank">Microsoft</a> .
 - You have to dowload Final_Project_OOP_20CSE/library.sql to get the data.
@@ -70,19 +69,19 @@ Nowadays, the library has become an indispensable place for students to serve le
   
 <a name="con"></a>  
 ## Contact:
-1/ Nguyen Phan:
+1/ <a href="https://github.com/ppn243" target="_blank">Nguyen Phan</a>:
 ```
 Email: nguyen.phan200217@vnuk.edu.vn
 Github: https://github.com/ppn243
 ```
 
-2/ Bao Ngo:
+2/ <a href="https://github.com/ngobao2002" target="_blank">Bao Ngo</a>:
 ```
 Email: bao.ngo200202@vnuk.edu.vn
 Github: https://github.com/ngobao2002
 ```
 
-3/ Tri Phan:
+3/ <a href="https://github.com/phanTri02" target="_blank">Tri Phan</a>:
 ```
 Email: tri.phan200209@vnuk.edu.vn
 Github: https://github.com/phanTri02
