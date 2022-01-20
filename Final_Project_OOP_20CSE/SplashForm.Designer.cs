@@ -63,7 +63,7 @@
             // 
             this.Percentage.AutoSize = true;
             this.Percentage.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Percentage.Location = new System.Drawing.Point(252, 155);
+            this.Percentage.Location = new System.Drawing.Point(248, 155);
             this.Percentage.Name = "Percentage";
             this.Percentage.Size = new System.Drawing.Size(66, 54);
             this.Percentage.TabIndex = 3;
@@ -98,7 +98,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(311, 155);
+            this.label4.Location = new System.Drawing.Point(320, 155);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(66, 54);
             this.label4.TabIndex = 6;
